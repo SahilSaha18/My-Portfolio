@@ -21,7 +21,9 @@ function About() {
         {/* Profile Image */}
         <div className="about-image">
           <div className="image-wrapper">
-            <img src="/Sahil.png" alt="Sahil Saha" />
+            <img
+              src={`${import.meta.env.BASE_URL}Sahil.png`}
+              alt="Sahil Saha"/>
           </div>
         </div>
 

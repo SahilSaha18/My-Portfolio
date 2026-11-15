@@ -67,13 +67,13 @@ function Hero() {
 
           {/* Download Resume */}
           <a
-            href="/Sahil_Resume.pdf"
-            className="secondary-btn"
-            download="Sahil_Saha_Resume.pdf"
-          >
-            Download Resume
-            <Download size={18} />
-          </a>
+  href={`${import.meta.env.BASE_URL}Sahil_Resume.pdf`}
+  className="secondary-btn"
+  download="Sahil_Saha_Resume.pdf"
+>
+  <Download size={18} />
+  Download Resume
+</a>
 
         </div>
 

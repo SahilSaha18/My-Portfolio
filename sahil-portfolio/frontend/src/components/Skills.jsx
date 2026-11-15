@@ -12,13 +12,13 @@ const skillGroups = [
     title: "Programming Languages",
     icon: Braces,
     color: "purple",
-    skills: ["JavaScript", "Basic Python"],
+    skills: ["JavaScript", "Basic Python","Java"],
   },
   {
     title: "Web Technologies",
     icon: Globe,
     color: "yellow",
-    skills: ["HTML5", "CSS3", "React.js"],
+    skills: ["HTML5", "CSS3", "React.js","Tailwind CSS"],
   },
   {
     title: "Backend & Databases",
